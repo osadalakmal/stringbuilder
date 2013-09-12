@@ -1,5 +1,5 @@
 OBJS = main.o StringBuilder.t.o
-CXXFLAGS = --std=c++0x -g
+CXXFLAGS = --std=c++0x -g -O6
 CC = clang++
 
 main.o : StringBuilder.t.o StringBuilder.h
