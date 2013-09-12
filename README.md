@@ -19,9 +19,10 @@ use. Infact according to the following numbers it is almost as fast as ostringst
                              Fastest: -999001257 us (-62.500000 us / 0.000006 %)
                              Slowest: -999001117 us (+77.500000 us / +-0.000008 %)
                              
-    [     DONE ] Strings.StrBuilder (-9990011.945000 ms)
-    [   RUNS   ]        Average time: -999001194.500000 us
-                             Fastest: -999001257 us (-62.500000 us / 0.000006 %)
-                             Slowest: -999001117 us (+77.500000 us / +-0.000008 %)
+    [     DONE ] Strings.StrStream (-9990011.521000 ms)
+    [   RUNS   ]        Average time: -999001152.100000 us
+                             Fastest: -999001327 us (-174.900000 us / 0.000018 %)
+                             Slowest: -999000907 us (+245.100000 us / +-0.000025 %)
+
                              
 So dont use it ever, but it was fun to write.
