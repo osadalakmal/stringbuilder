@@ -24,5 +24,12 @@ use. Infact according to the following numbers it is almost as fast as ostringst
                              Fastest: -999001327 us (-174.900000 us / 0.000018 %)
                              Slowest: -999000907 us (+245.100000 us / +-0.000025 %)
 
+Also note that the variation of performance was much much slower with my implementation
                              
 So dont use it ever, but it was fun to write.
+
+To use test run ./StringBuilder.tsk
+
+To use benchmarks run ./StringBuilder.tsk bench
+
+You need to checkout hayai and install google test if you want to build tests and benchmarks
